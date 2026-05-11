@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">sherlok</string>
+    <string name="chooseananswer">Выберите ответ:</string>
+    <string name="textukradennayakolbaska">Кто украл колбасу???</string>
+    <string name="textotvetit">ответить</string>
+    <string name="BtnYes">да, верно это был %s</string>
+    <string name="BtnNo">нет, это был не %s</string>
+    <string name="noBtnYes">верно, это был не %s</string>
+    <string name="noBtnNo">нет, это был %s</string>
+    <string name="vivod_otveta">Вывод ответа</string>
+</resources>
