@@ -20,12 +20,12 @@ class podtverdityotvetik : AppCompatActivity() {
         val images = listOf<Int>(R.drawable.lisa, R.drawable.pesik, R.drawable.barsik)
         val animals = resources.getStringArray(R.array.animals)
         if (selectedItem != null) {
-            // устанавливаем название животного в заголовок
+            
             binding.titleAnimal.text = animals[selectedItem]
             binding.imageAnimal.setImageResource(images[selectedItem])
         }
 
-        // обработчики кнопок ДА и НЕТ
+       
         binding.btnYes.setOnClickListener {
             returnAnswer(selectedBtn = 1)
         }
